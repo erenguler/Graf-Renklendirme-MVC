@@ -1,5 +1,5 @@
 <img src="https://avatars1.githubusercontent.com/u/15645054?v=3&amp;s=40" alt="">
-Graf Renklendirme (OOP-MVC)
+Graf Renklendirme (OOP-C#-Entityframework-MVC)
 
 Elimizde öğrenci ve ders tablolarının yanında öğrenciders tablosu olmalı.
 Gerekli eklemeler yapıldıktan sonra Yap adlı action çağrıldığında işlemler gerçekleşecektir.
