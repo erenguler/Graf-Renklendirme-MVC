@@ -1,0 +1,30 @@
+﻿@model Dictionary<Ders, int>
+@{
+    string[] renkler = (ViewBag.Renkler as string[]);
+    int kullanilanRenkSayisi = Convert.ToInt32( ViewBag.kullanilanRenkSayisi);
+}
+<table>
+    <thead>
+        <tr>
+            <td class="siyah">Adi</td>
+            <td class="siyah">Rengi</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Key.Adi</td>
+                <td style='background-color:@renkler[item.Value]'> @renkler[item.Value]</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class='pull-left'>
+    @for (int i = 0; i < renkler.Length; i++)
+    {
+        <span class='label label-default' style='background-color:@renkler[i]'>@i.ToString()</span>
+    }
+</div>
+<div class='pull-right'>Kullanılan Renk Sayısı: @kullanilanRenkSayisi.ToString()</div>
+

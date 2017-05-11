@@ -1,0 +1,33 @@
+﻿@model List<Ders>
+@{ int[,] komsuluk = ViewBag.Komsuluk as int[,]; }
+<table>
+    <thead>
+        <tr>
+            <td class="siyah"></td>
+            @foreach (var item in Model)
+            {
+                <td class="siyah">@item.Adi</td>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <td class="siyah">@Model[i].Adi</td>
+                @for (int j = 0; j < Model.Count; j++)
+                {
+                    if (komsuluk[i, j] == 1)
+                    {
+                        <td style='background-color:gray;color:black;'>@komsuluk[i, j].ToString()</td>
+                    }
+                    else
+                    {
+                        <td>@komsuluk[i, j].ToString()</td>
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+

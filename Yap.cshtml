@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Yap";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<style>
+    body {
+        color: black;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    .siyah
+    {
+        background-color:black;
+        color:white;
+    }
+	table{
+		width:100%;
+		text-align:center;
+	}
+</style>
+
+<div class="row table-responsive">
+    <div class="col-md-12 col-lg-12 col-sm-12">
+        <h3> Komşuluk Matrisi (adjacency matrix)  </h3>
+        @{ Html.RenderAction("Komsuluk", "OgrenciDers");}
+    </div>
+</div>
+<div class="row" style="margin-top:40px;">
+    <div class="col-md-6 col-lg-6 col-sm-12">
+        <h3> Dereceler (degrees)  </h3>
+        @{ Html.RenderAction("Derece", "OgrenciDers");}
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-12">
+        <h3> Renkler (colors)  </h3>
+        @{ Html.RenderAction("Renk", "OgrenciDers");}
+    </div>
+</div>

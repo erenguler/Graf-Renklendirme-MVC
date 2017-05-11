@@ -1,0 +1,19 @@
+﻿@model Dictionary<Ders, int>
+<table>
+    <thead>
+        <tr>
+            <td class="siyah">Adi</td>
+            <td class="siyah">Derecesi</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Key.Adi</td>
+                <td>@item.Value.ToString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
