@@ -1,3 +1,4 @@
+<img src="https://avatars1.githubusercontent.com/u/15645054?v=3&amp;s=40" alt="">
 Graf Renklendirme (OOP-MVC)
 
 Elimizde öğrenci ve ders tablolarının tanında öğrenciders tablosu olmalı.
@@ -8,10 +9,10 @@ Renkler alındıktan sonra nasıl kullanacağınız size kalmış.
 İşlemler
 
 1) Önce dersler arası komşuluklar çıkarılır:
-![alt text](https://github.com/erenguler/Graf-Renklendirme-MVC/blob/master/komsuluk.JPG)
+<img src="https://github.com/erenguler/Graf-Renklendirme-MVC/blob/master/komsuluk.JPG" alt="">
 
 2) Sonra derslerin dereceleri belirlenip büyükten küçüğe sıralanır:
-![alt text](https://github.com/erenguler/Graf-Renklendirme-MVC/blob/master/dereceler.JPG)
+<img src="https://github.com/erenguler/Graf-Renklendirme-MVC/blob/master/dereceler.JPG" alt="">
 
 3) Son olarak derslere musait olan renkler verilir
-![alt text](https://github.com/erenguler/Graf-Renklendirme-MVC/blob/master/renkler.JPG)
+<img src="https://github.com/erenguler/Graf-Renklendirme-MVC/blob/master/renkler.JPG" alt="">
