@@ -1,4 +1,4 @@
-Graf Renklendirme
+Graf Renklendirme (OOP-MVC)
 
 Elimizde öğrenci ve ders tablolarının tanında öğrenciders tablosu olmalı.
 Gerekli eklemeler yapıldıktan sonra Yap adlı action çağrıldığında işlemler gerçekleşecektir.
