@@ -19,7 +19,7 @@ namespace GrafRenklendirme.Controllers
         const int gunSayisi = 7;
 
         #region CRUD
-  	// OgrenciDers içi crud işlemleri
+  	// OgrenciDers için crud işlemleri
         #endregion
 
         public ActionResult Yap()
